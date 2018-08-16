@@ -1,0 +1,33 @@
+body {
+  background: #cccccc;
+  padding: 30px;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+#chart {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 25px 5px #000000;
+  -moz-box-shadow: 0 0 25px 5px #000000;
+  box-shadow: 0 0 25px 5px #000000;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 10;
+  opacity: .9;
+  visibility: hidden;
+  width: auto;
+  height: auto;
+  background: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 5px 2px #404040;
+  -moz-box-shadow: 0 0 5px 2px #404040;
+  box-shadow: 0 0 10px 2px #404040;
+  border-radius: 3px;
+  font-size: 11px;
+  text-align: left;
+}
